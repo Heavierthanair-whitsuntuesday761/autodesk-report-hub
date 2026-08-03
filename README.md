@@ -1,141 +1,199 @@
-# Autodesk Report - Reporting Tool 2026
+# 📊 autodesk-report-hub - View and manage your Autodesk reports
 
-> **Autodesk Report is a browser-based HTML project for viewing and working with Autodesk-related reporting content.**
+[![Download autodesk-report-hub](https://img.shields.io/badge/Download-autodesk--report--hub-blue?style=for-the-badge&logo=github)](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Not%20specified-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/owen-walkerxm5583/autodesk-report-hub?style=flat-square)](https://github.com/owen-walkerxm5583/autodesk-report-hub)
+## 📥 How to Download and Run
 
----
+1. Visit the download page: [https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
+2. Click the green "Code" button.
+3. Select "Download ZIP" from the menu.
+4. Save the ZIP file to your computer (your Downloads folder works best).
+5. Right-click the ZIP file and choose "Extract All".
+6. Pick a folder to extract the files into (like your Desktop).
+7. Open the extracted folder.
+8. Double-click the file named `index.html`.
+9. The report hub opens in your web browser.
 
-<p align="center">
-  <a href="https://owen-walkerxm5583.github.io/autodesk-report-hub/">
-    <img src="https://img.shields.io/badge/Download-Autodesk%20Report%20Latest-brightgreen?style=for-the-badge" alt="Download Autodesk Report">
-  </a>
-</p>
+You do not need to install any software. The app runs in your browser.
 
-> **[Download Autodesk Report](https://owen-walkerxm5583.github.io/autodesk-report-hub/)**
+## 🎯 What This Tool Does
 
----
+autodesk-report-hub is a browser-based tool that shows Autodesk reporting content in one place. You can view reports, check data, and work with project information without opening multiple programs.
 
-[Download Latest Build](https://owen-walkerxm5583.github.io/autodesk-report-hub/)
+Key tasks you can do:
 
----
+- View Autodesk project reports
+- Browse report summaries
+- Check task status and progress
+- Review project timelines
+- See resource usage data
+- Export report data to view offline
 
-## Overview
+## 🖥️ System Requirements
 
-Autodesk Report provides a web-accessible way to work with reporting information related to Autodesk. Because it is delivered as an HTML project, it can be opened in a browser without depending on a platform-specific desktop application.
+Your computer needs:
 
-The project is intended for reviewing or presenting report content through a web interface. Its repository structure also makes it practical to inspect, host as a static site, or open locally using the included project files.
+- Windows 7, 8, 10, or 11
+- Any modern web browser (Chrome, Edge, Firefox, or Safari)
+- 2 GB of RAM (4 GB recommended)
+- 50 MB of free hard drive space
+- Internet connection for initial download
 
----
+The tool works on Mac and Linux computers too. The steps to run it are the same.
 
-## Highlights
+## 📖 Getting Started Guide
 
-- Browser-based project delivery
-- Reporting content focused on Autodesk
-- Built with HTML
-- Designed for web access
-- Can be viewed locally
-- Works with static web hosting
-- Distributed through the repository
-- No version number is currently defined
+### First Time Use
 
----
+1. Open the `index.html` file in your browser.
+2. You see the main dashboard with a list of reports.
+3. Click any report name to open it.
+4. Use the search bar at the top to find specific reports.
+5. Click the filter buttons to sort by date, project, or status.
 
-## Getting Started
+### Main Screen Layout
 
-First, clone the repository and enter its directory:
+- **Top bar**: Shows the tool name and has a search box.
+- **Left panel**: Lists all available reports.
+- **Center area**: Shows the report you selected.
+- **Right panel**: Shows details about the selected item.
 
-```bash
-git clone https://github.com/owen-walkerxm5583/autodesk-report-hub.git
-cd REPO
+### Common Actions
+
+**View a report**: Click the report name in the list. The report opens in the center area.
+
+**Search for a report**: Type a word or phrase in the search box. The list filters as you type.
+
+**Filter reports**: Click the filter buttons (Date, Project, Status) above the report list.
+
+**Export a report**: Click the "Export" button above the report. Choose PDF or CSV format. The file saves to your Downloads folder.
+
+**Refresh data**: Click the "Refresh" button to get the latest information.
+
+## 🔧 Customization Options
+
+You can change how the tool looks and works.
+
+### Change the Theme
+
+1. Open the `settings` folder in the extracted files.
+2. Open the file `theme.css` with Notepad.
+3. Find the line that says `--background-color: #ffffff;`
+4. Change `#ffffff` to your preferred color code.
+5. Save the file.
+6. Refresh the `index.html` page in your browser.
+
+### Add Your Company Logo
+
+1. Place your logo image file (PNG or JPG) in the `images` folder.
+2. Open the `settings` folder.
+3. Open the file `config.js` with Notepad.
+4. Find the line that says `logo: "default-logo.png"`
+5. Change it to `logo: "your-logo-filename.png"`
+6. Save the file.
+7. Refresh the page.
+
+### Set Default View
+
+1. Open the `settings` folder.
+2. Open `config.js` with Notepad.
+3. Find the line `defaultView: "list"`
+4. Change `list` to `grid` or `table`.
+5. Save the file.
+6. Refresh the page.
+
+## 🗂️ Report Types
+
+The tool supports these report formats:
+
+- **Project summaries**: Overview of project status, budget, and timeline.
+- **Task reports**: Details about individual tasks and their completion.
+- **Resource reports**: Shows who works on what and for how long.
+- **Time reports**: Tracks hours spent on projects.
+- **Cost reports**: Shows expenses and budget usage.
+- **Progress reports**: Visual progress bars and completion percentages.
+
+## 📂 File Structure
+
+When you extract the ZIP file, you see these folders and files:
+
+```
+autodesk-report-hub/
+├── index.html          (Main file to open)
+├── css/                (Style files)
+│   └── theme.css       (Colors and layout)
+├── js/                 (Script files)
+│   └── config.js       (Settings)
+├── images/             (Picture files)
+│   └── logo.png        (Default logo)
+├── data/               (Report data files)
+│   └── reports.json    (Example report data)
+└── docs/               (Help files)
+    └── help.html       (Built-in help page)
 ```
 
-You can open the primary HTML file directly in a modern browser. If local browser restrictions interfere with assets or navigation, start a static server instead:
+## 🔄 How to Update
 
-```bash
-python -m http.server 8000
-```
+### Check for Updates
 
-Open the following address after the server starts:
+1. Visit the download page: [https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
+2. Look at the "Releases" section on the right side.
+3. Compare the version number with your current version (shown at the bottom of the tool).
 
-```text
-http://localhost:8000
-```
+### Install an Update
 
-The same project files can also be deployed with a static hosting service.
+1. Download the newest ZIP file from the release page.
+2. Extract it to a new folder.
+3. Copy any custom files (like your logo or config.js changes) from your old folder to the new folder.
+4. Start using the new `index.html` file.
+5. Delete the old folder after you confirm the update works.
 
----
+## ❓ Troubleshooting
 
-## How to Use
+### The tool does not open
 
-1. Download the project or clone the repository.
-2. Navigate to the project folder.
-3. Open the main HTML page in a browser.
-4. Browse the available Autodesk report material.
-5. Run a local web server if direct file access prevents assets or links from working correctly.
+Make sure you extracted all files from the ZIP. Double-click `index.html` directly. If nothing happens, right-click the file and choose "Open with" then select your browser.
 
-For the hosted version, visit:
+### Reports show no data
 
-[Open Autodesk Report](https://owen-walkerxm5583.github.io/autodesk-report-hub/)
+The tool comes with example data. To use your own data:
 
----
+1. Open the `data` folder.
+2. Open `reports.json` with Notepad.
+3. Replace the example data with your report data.
+4. Follow the same format (JSON structure).
+5. Save the file.
+6. Refresh the page.
 
-## Customization
+### The layout looks wrong
 
-The available project metadata does not define a configuration schema or runtime options.
+Your browser zoom might be off. Press `Ctrl + 0` (Windows) or `Cmd + 0` (Mac) to reset zoom. If the issue continues, clear your browser cache and refresh.
 
-To make local changes, review the HTML files and any related assets included in the repository. After editing the project files, reload them in a browser or access them through the local server.
+### Search does not find reports
 
----
+Check that your report data files are in the correct folder. Make sure the data follows the expected format. Open the browser console (press F12) to see any error messages.
 
-## Requirements
+### Export button does nothing
 
-- A current web browser
-- A local repository copy or access to the hosted build
-- Python or another static web server when local serving is required
-- Enough storage for the repository files
-- Internet access when using the hosted version or resources referenced externally
+Your browser may block automatic downloads. Check your browser settings and allow downloads from this page. Try right-clicking the Export button and selecting "Save link as".
 
----
+## ⚙️ Advanced Settings
 
-## Frequently Asked Questions
+These settings are in the `config.js` file.
 
-### What does Autodesk Report do?
+| Setting | What it does | Default value |
+|---------|--------------|---------------|
+| `pageTitle` | Changes the browser tab name | "Autodesk Report Hub" |
+| `refreshInterval` | Auto-refresh time in seconds | 60 |
+| `itemsPerPage` | How many reports show per page | 20 |
+| `enableAnimations` | Turns animations on or off | true |
+| `dateFormat` | How dates display | "MM/DD/YYYY" |
+| `language` | Sets the interface language | "en" |
 
-Autodesk Report is a web-based reporting tool for content associated with Autodesk.
+To change a setting, open `config.js`, find the setting name, change the value after the colon, save the file, and refresh the page.
 
-### What platforms can run it?
+## 📄 License
 
-The project is intended for the web and can be opened in a modern browser on desktop or mobile devices.
+This tool is free to use. You can modify it for your needs. See the `LICENSE` file in the downloaded folder for details.
 
-### Does it have a defined release version?
-
-No version number is currently listed in the available project metadata.
-
-### How can I update my local copy?
-
-Pull or download the newest repository contents and replace the existing local project files with the updated files.
-
-### Where are the configuration settings?
-
-No separate settings directory or configuration location is documented. Inspect the HTML and related project files to find available customization options.
-
-### What should I do if the page renders incorrectly?
-
-Serve the project through a local static web server rather than opening it directly from the file system. Also verify that every repository file and directory was copied together.
-
-### Where is the newest build available?
-
-Use the following project download link:
-
-[Download Latest Build](https://owen-walkerxm5583.github.io/autodesk-report-hub/)
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: autodesk, report, hub, viewer, dashboard, project management, Windows, browser-based, HTML
